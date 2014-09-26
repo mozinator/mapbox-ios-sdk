@@ -287,7 +287,7 @@
     _zoomDelegateQueue = [NSOperationQueue new];
     [_zoomDelegateQueue setMaxConcurrentOperationCount:1];
 
-    [self setTileCache:[RMTileCache new]];
+//    [self setTileCache:[RMTileCache new]];
 
     if (backgroundImage)
     {
