@@ -83,6 +83,8 @@
 		B8F3FC650EA2E792004D8F85 /* RMMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F3FC630EA2E792004D8F85 /* RMMarker.m */; };
 		D1437B36122869E400888DAE /* RMDBMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D1437B32122869E400888DAE /* RMDBMapSource.m */; };
 		D1437B37122869E400888DAE /* RMDBMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D1437B33122869E400888DAE /* RMDBMapSource.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D869F5EE1AB345AD00C076D2 /* RMMultiMBTilesSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D869F5EC1AB345AD00C076D2 /* RMMultiMBTilesSource.h */; };
+		D869F5EF1AB345AD00C076D2 /* RMMultiMBTilesSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D869F5ED1AB345AD00C076D2 /* RMMultiMBTilesSource.m */; };
 		DD07A23817F3AF9800E420B2 /* HeadingAngleMaskSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD07A23217F3AF9800E420B2 /* HeadingAngleMaskSmall.png */; };
 		DD07A23917F3AF9800E420B2 /* HeadingAngleMaskMedium.png in Resources */ = {isa = PBXBuildFile; fileRef = DD07A23317F3AF9800E420B2 /* HeadingAngleMaskMedium.png */; };
 		DD07A23A17F3AF9800E420B2 /* HeadingAngleMaskLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = DD07A23417F3AF9800E420B2 /* HeadingAngleMaskLarge.png */; };
@@ -266,6 +268,8 @@
 		B8F3FC630EA2E792004D8F85 /* RMMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMarker.m; sourceTree = "<group>"; };
 		D1437B32122869E400888DAE /* RMDBMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDBMapSource.m; sourceTree = "<group>"; };
 		D1437B33122869E400888DAE /* RMDBMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDBMapSource.h; sourceTree = "<group>"; };
+		D869F5EC1AB345AD00C076D2 /* RMMultiMBTilesSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMultiMBTilesSource.h; sourceTree = "<group>"; };
+		D869F5ED1AB345AD00C076D2 /* RMMultiMBTilesSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMultiMBTilesSource.m; sourceTree = "<group>"; };
 		DD07A23217F3AF9800E420B2 /* HeadingAngleMaskSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeadingAngleMaskSmall.png; path = Map/Resources/HeadingAngleMaskSmall.png; sourceTree = "<group>"; };
 		DD07A23317F3AF9800E420B2 /* HeadingAngleMaskMedium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeadingAngleMaskMedium.png; path = Map/Resources/HeadingAngleMaskMedium.png; sourceTree = "<group>"; };
 		DD07A23417F3AF9800E420B2 /* HeadingAngleMaskLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeadingAngleMaskLarge.png; path = Map/Resources/HeadingAngleMaskLarge.png; sourceTree = "<group>"; };
@@ -391,6 +395,8 @@
 		16EC85CB133CA69A00219947 /* Map Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D869F5EC1AB345AD00C076D2 /* RMMultiMBTilesSource.h */,
+				D869F5ED1AB345AD00C076D2 /* RMMultiMBTilesSource.m */,
 				16E5A63815E531F200C92A5A /* RMCompositeSource.h */,
 				16E5A63915E531F200C92A5A /* RMCompositeSource.m */,
 				1656665315A1DF7900EF3DC7 /* RMCoordinateGridSource.h */,
@@ -739,6 +745,7 @@
 				B8C974250E8A19B2007D16AD /* RMOpenStreetMapSource.h in Headers */,
 				B8C974230E8A19B2007D16AD /* RMTileCache.h in Headers */,
 				B8C9742B0E8A19B2007D16AD /* RMMemoryCache.h in Headers */,
+				D869F5EE1AB345AD00C076D2 /* RMMultiMBTilesSource.h in Headers */,
 				B8C9742F0E8A19B2007D16AD /* RMMapLayer.h in Headers */,
 				DD56B9511961E23F00706C67 /* FMDatabaseAdditions.h in Headers */,
 				B8C974620E8A19E8007D16AD /* RMTileSource.h in Headers */,
@@ -946,6 +953,7 @@
 				160EEDB013D41DEC007C5501 /* RMAnnotation.m in Sources */,
 				1606C9FF13D86BA400547581 /* RMOpenCycleMapSource.m in Sources */,
 				16FAB66513E03D55002F4E1C /* RMQuadTree.m in Sources */,
+				D869F5EF1AB345AD00C076D2 /* RMMultiMBTilesSource.m in Sources */,
 				160E535813FBDB48004F82F9 /* RMMapTiledLayerView.m in Sources */,
 				1609AF8F14068B09008344B7 /* RMMapOverlayView.m in Sources */,
 				DD56B9561961E23F00706C67 /* FMDatabaseQueue.m in Sources */,

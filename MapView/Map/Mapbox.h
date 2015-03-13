@@ -1,6 +1,6 @@
 //
 // Mapbox.h
-// 
+//
 // Copyright (c) 2008-2013, Mapbox & Route-Me Contributors
 // All rights reserved.
 //
@@ -39,6 +39,7 @@
 #import "RMGreatCircleAnnotation.h"
 #import "RMInteractiveSource.h"
 #import "RMMBTilesSource.h"
+#import "RMMultiMBTilesSource.h"
 #import "RMMapboxSource.h"
 #import "RMMapView.h"
 #import "RMMapViewDelegate.h"
