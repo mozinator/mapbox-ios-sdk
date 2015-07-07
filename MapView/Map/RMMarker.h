@@ -44,6 +44,8 @@ typedef enum : NSUInteger {
     UIColor *textBackgroundColor;
 }
 
+@property (nonatomic, retain) UIView *contentView;
+
 /** @name Setting Label Properties */
 
 /** A custom label for the marker. The label is shown when first set. */
@@ -86,7 +88,7 @@ typedef enum : NSUInteger {
 *   @return An initialized RMMarker layer. */
 - (id)initWithMapboxMarkerImage:(NSString *)symbolName tintColor:(UIColor *)color;
 
-/** Initializes and returns a newly allocated marker object using a pin image, a given symbol name, e.g., `bus`, a given color, and a given size. 
+/** Initializes and returns a newly allocated marker object using a pin image, a given symbol name, e.g., `bus`, a given color, and a given size.
 *   @param symbolName A symbol name from the [Maki](https://mapbox.com/maki/) icon set.
 *   @param color A color for the marker.
 *   @param size A size for the marker.
@@ -111,7 +113,7 @@ typedef enum : NSUInteger {
 
 /** @name Altering Labels */
 
-/** Changes the label to a UILabel with the supplied text and default marker font and using the existing text foreground and background colors. 
+/** Changes the label to a UILabel with the supplied text and default marker font and using the existing text foreground and background colors.
 *   @param text The text for the label. */
 - (void)changeLabelUsingText:(NSString *)text;
 
@@ -119,9 +121,9 @@ typedef enum : NSUInteger {
 - (void)changeLabelUsingText:(NSString *)text position:(CGPoint)position;
 
 /** Changes the label to a UILabel with the supplied text and font and using the given text foreground and background colors.
-*   @param text The text for the label. 
-*   @param font A font to use for the label text. 
-*   @param textColor The color for the label text. 
+*   @param text The text for the label.
+*   @param font A font to use for the label text.
+*   @param textColor The color for the label text.
 *   @param backgroundColor The color for the label background. */
 - (void)changeLabelUsingText:(NSString *)text font:(UIFont *)font foregroundColor:(UIColor *)textColor backgroundColor:(UIColor *)backgroundColor;
 
@@ -141,7 +143,7 @@ typedef enum : NSUInteger {
 
 /** @name Altering Images */
 
-/** Replace the image for a marker. 
+/** Replace the image for a marker.
 *   @param image An image to use for the marker. */
 - (void)replaceUIImage:(UIImage *)image;
 
